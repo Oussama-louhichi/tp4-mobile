@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nom de l'occupation -->
+        <TextView
+            android:id="@+id/txtNomOccupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Catégorie (optionnelle) -->
+        <TextView
+            android:id="@+id/txtCategorieOccupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/txtDescOccupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description complète"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Bouton Retour -->
+        <Button
+            android:id="@+id/btnRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour" />
+
+    </LinearLayout>
+</ScrollView>
